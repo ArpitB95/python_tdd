@@ -6,10 +6,10 @@ class Caltests(unittest.TestCase):
     calc_obj = SimpleCalc()
 
     def test_add(self):
-        self.assertEqual(self.calc_obj.add(2,4), 6)
+        self.assertEqual(self.calc_obj.add(2,4), 6)  ### test case for add function
 
     def test_subtract(self):
-        self.assertEqual(self.calc_obj.subtract(4,2), 2)
+        self.assertEqual(self.calc_obj.subtract(4,2), 2)  ### test case for subtract function
 
     def test_multiply(self):
         self.assertEqual(self.calc_obj.multiply(2,2), 4)
