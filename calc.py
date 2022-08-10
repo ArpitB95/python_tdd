@@ -1,6 +1,6 @@
 class SimpleCalc:
 
-    def add(self, value1, value2):
+    def add(self, value1, value2):   ### defining functions which needs to be tested
         return value1 + value2
 
     def subtract(self,value1,value2):
@@ -18,9 +18,9 @@ class SimpleCalc:
     def percentage(self,value1,value2):
         return (value1/value2 *100)
 
-    def DOB(self,value1,value2):
+    def DOB(self,value1,value2):     ### function for birth year and birth month
         return (f"Your DOB is {value1} / {value2}")
 
 
-obj = SimpleCalc()
-print(obj.DOB(1990,2))
+# obj = SimpleCalc()
+# print(obj.DOB(1990,2))
